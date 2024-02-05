@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    position: absolute;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    font-family: 'Prompt', sans-serif;
+    background-color: lightgray;
+    /* width: 250px; */
+    height: 100vh;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 60px;
+    transition: 0.1s ease-in;
+}
+.sidebar ul
+{
+   list-style: none;
+}
+.sidebar ul li
+{
+    padding: 10px;
+}
+.sidebar nav ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    height: 100vh;
+}
+.info
+{
+    /* background-color: gold; */
+    display: flex;
+    margin: 130px auto;
+    width: 65vw;
+    height: 60vh;
+    justify-content: space-around;
+}
+.devinfo
+{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello
+{
+    font-size: 3em;
+    font-weight: 200;
+    
+}
+.name
+{
+    font-size: 2.5em;
+    font-family: 'Prompt', sans-serif;
+    
+}
+.about
+{
+    font-size: 2em;
+
+}
+.moreabout
+{
+    margin-top: 1em;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.pic img
+{
+    height: 60vh;
+}
+.buttons
+{
+    font-size: 16px;
+}
+.button
+{
+    font-size: 1.3em;
+    padding: 4px;
+    margin-top: 8px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-color: rgb(77, 21, 207);
+    color: white;
+    
+}
+.button:hover{
+    color: rgb(77, 21, 207);
+    background-color: white;
+}
+
+/* CONTACT */
+ .contactform
+ {
+    margin:30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .contactform h1
+ {
+    text-align: center;
+ } 
+ .contactform form div
+ {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding: 10px ;
+ }
+ #emailHelp {
+    padding: 4px;
+    font-size: 8px;
+    margin: 2px ;
+    color: blueviolet;
+ }
+ .contactform form div input
+ {
+    width: 26vw;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 6px 0 0 0;
+ }
+ .contactform form 
+ {
+    margin: 30px;
+ }
+ #form-check
+ {
+    flex-direction: row;
+ }
+ #form-check input
+ {
+    margin: 2px 3px;
+    width: 15px;
+ }
+ .contactform button
+ {
+    width: 15vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 4px 0;
+    margin: 5px 15px;
+    font-size: 15px;
+    color: blueviolet;
+    background-color: aliceblue;
+    
+ }
+ .contactform button:hover
+ {
+    background-color: blueviolet;
+    color: aliceblue;
+    
+ }
+
+ /* Blogs */
+ .infoblog
+ {
+    margin: 40px;
+ }
+ .blogitem
+ {
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+ }
+ h2
+ {
+    margin: 20px 0px;
+    
+ }
+ p
+ {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ /* Intro */
+
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px 0;
+}
+.intro
+{
+    margin: 60px;
+}
+.skillcontainer
+{
+    padding: 10px;
+}
+.skillitem
+{
+    display: flex;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+.skill
+{
+    width: 200px;
+    height: 10px;
+    background-color: red;
+    border: 1px solid black;
+}
+.t5
+{
+    width: 100px;
+    height: 10px;
+    background-color: rgb(78, 190, 46);
+}
+.hamburger
+{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross 
+{
+    margin-left: 140px;
+    transition: 0.3s ease-out;
+}
+.sidebargo
+    {
+        transform: translate(-400px,0);
+        position: absolute;
+    }
+    
+@media screen and (max-width: 1000px) 
+{
+    /* *{
+      background-color: red;
+    } */
+    .pic
+    {
+        display: none;
+    }
+    .intro .contactform .infoblog
+    {
+        margin: 8px;
+    }
+    .devinfo
+    {
+        font-size: 15px;
+    }
+    .buttons
+    {
+        font-size: 10px;
+    }
+}
+    
+  
+
+
